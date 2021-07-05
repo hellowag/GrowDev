@@ -1,0 +1,140 @@
+a {
+ text-decoration: none;
+}
+body {
+    background-color: #ffffff;
+}
+.container-card {
+    padding: 50px 0px 50px 0px; 
+    margin-bottom: 2em;
+}
+.img-perfil-card {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-cartao {
+    border-radius: 72px !important;
+}
+
+.card-title {
+    font-family: poppins;
+}
+
+.hr {
+    height: 30px; 
+    background-color: rgba(26, 1, 247, 0.918); width: 100%;
+}
+
+.card-perfil {
+    background-color: #ee0c0c !important;
+    box-shadow:  0px 0px 5px #F5F5F5;
+}
+
+.botoes-card {
+    display: flex;
+    justify-content: center;
+
+}
+
+#btn-sobre {
+    border-radius: 13px;
+    padding: 0px 8px;
+    font-weight: 600;
+    font-size: initial;
+    margin-right: 5px;
+}
+ 
+#btn-projeto {
+    border-radius: 13px;
+    padding: 0px 8px;
+    font-weight: 600;
+    font-size: initial;
+}
+
+.icon-redes-sociais {
+    text-align: center;
+    padding: 10px;
+}
+
+.title-text {
+    margin-top: 1em ;
+    font-weight: 700;
+}
+
+.title-subtitle {
+    margin: 1em 0;
+}
+
+.text {
+    padding: 5px 17px;
+}
+
+.links-redes-sociais {
+    text-decoration: none;
+}
+
+.links-redes-sociais i {
+    color: rgb(50, 49, 80);
+    font-size: 17px;
+    padding: 10px;
+}
+
+#footer-elementos {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-elementos .email {
+        padding: 15px 0px 15px 0px ;
+    }
+
+@media (min-width: 900px){
+    .container-linear{
+        background: linear-gradient(to left, #00000e 40%, #01035e  60%);
+    }
+    .card-col {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        background-color: rgb(211, 216, 235) !important;
+        box-shadow: 0px 0px 54px 0px #9999a2;
+    }
+}
+
+.card-perfil {
+    background-color: #fff !important;
+    color: #292a2d;
+    box-shadow: none !important;
+    width: 18em;
+    border: none !important
+
+    }
+        
+.btn-card {
+    color: black !important;
+}
+
+.text-body {
+    box-shadow: none;
+}
+
+.text {
+    max-width: 430px;
+    vertical-align: middle;
+    margin-top: 2em;
+}
+
+#footer-elementos{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+#texto-1 {
+   
+}
+
+#texto-2 {
+    display: none;
+}
